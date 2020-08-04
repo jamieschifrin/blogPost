@@ -1,12 +1,16 @@
 .container {
-    background-color: white;
+    background-color: rgb(255, 251, 251);
     /* background-image: url(https://images.app.goo.gl/V9WmqDPQzaW7bKoz8); */
     min-height: 105vh;
+    
 }
 
 body{
     /* background-color: rgb(98, 149, 122); */
-    background-image: url(./assets/flames.jpg);
+    background-image: url(./assets/flames1.jpg);
+    /* background-size: cover; */
+
+  
 }
 
 nav{

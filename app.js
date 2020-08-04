@@ -1,5 +1,5 @@
 var posts = [{
-    title: 'Welcome to Space...Assholes',
+    title: 'Welcome to the Next Frontier',
     picture: "./assets/logo.jpg",
     post: "at eaque aspernatur nostrum impedit vero pariatur dignissimos ? Commodi ut architecto voluptates! Unde voluptatibus magnam expedita accusamus possimus necessitatibus debitis, neque quibusdam provident ? Veritatis molestias voluptate magnam, aliquid voluptatem eius possimus in !Rem expedita ipsa cum enim dolorem iste quo est quas corporis aut autem, consequatur illum, deserunt velit, ipsum vel dignissimos."
 },
@@ -52,10 +52,11 @@ var posts = [{
 ];
 var postHTML =''
 for (var i = 0; i <posts.length; i++) {
-    var heading = "<div class = 'post'><h2>"+posts[i].title+"</h2>";
+    var heading = "<div class = 'post card'><h2>"+posts[i].title+"</h2>";
     var mainImage = "<img src = '"+posts[i].picture+"'>";
     
-    var body = "<p>"+posts[i].post+"</p></div>";
+    var body = "<p>"+posts[i].post+"</p></div><br><br>";
+    
     var concatThis = heading + mainImage + body;
     postHTML = postHTML + concatThis;
     console.log(mainImage)
